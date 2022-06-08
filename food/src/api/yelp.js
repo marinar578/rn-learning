@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const apiKey = process.env['API_KEY'];
+const API_KEY = process.env['API_KEY'];
 
 export default axios.create({
     baseURL: 'https://api.yelp.com/v3/businesses',
     headers: {
-        Authorization: "Bearer " + apiKey
+        Authorization: "Bearer " + API_KEY
     }
 });
