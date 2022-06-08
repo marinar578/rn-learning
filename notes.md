@@ -13,3 +13,6 @@ react navigation (set it up in project from the beginning - `npm install react-n
 - BottomTabNavigator (footer menu)
 - StackNavigator (button on main page leads to page 2, page 2 includes back button)
 
+- run in cli with env variables after installing bable:
+API_KEY="" npm start --reset-cache
+
