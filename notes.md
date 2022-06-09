@@ -16,6 +16,8 @@ react navigation (set it up in project from the beginning - `npm install react-n
 - run in cli with env variables after installing bable:
 API_KEY="" npm start --reset-cache
 
-- create a new react native app with expo (choose "blank" when prompted):
+- create a new react native app in cli with expo (choose "blank" when prompted):
 npx expo-cli init blog --npm
 
+- install react-navigation in cli:
+npm install react-navigation
